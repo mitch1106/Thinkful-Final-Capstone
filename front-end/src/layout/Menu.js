@@ -20,33 +20,33 @@ function Menu() {
             <span>Periodic Tables</span>
           </div>
         </Link>
-        <hr className="sidebar-divider my-0" />
-        <ul className="nav navbar-nav text-light" id="accordionSidebar">
-          <li className="nav-item">
-            <Link className="nav-link" to="/dashboard">
+        
+        <div className="nav navbar-nav text-light" id="accordionSidebar">
+          <div className="nav-item" >
+            <Link className="nav-link" to="/dashboard" >
               <span className="oi oi-dashboard" />
               &nbsp;Dashboard
             </Link>
-          </li>
-          <li className="nav-item">
+          </div>
+          <div className="nav-item">
             <Link className="nav-link" to="/search">
               <span className="oi oi-magnifying-glass" />
               &nbsp;Search
             </Link>
-          </li>
-          <li className="nav-item">
+          </div>
+          <div className="nav-item">
             <Link className="nav-link" to="/reservations/new">
               <span className="oi oi-plus" />
               &nbsp;New Reservation
             </Link>
-          </li>
-          <li className="nav-item">
+          </div>
+          <div className="nav-item">
             <Link className="nav-link" to="/tables/new">
               <span className="oi oi-layers" />
               &nbsp;New Table
             </Link>
-          </li>
-        </ul>
+          </div>
+        </div>
         <div className="text-center d-none d-md-inline">
           <button
             className="btn rounded-circle border-0"
