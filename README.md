@@ -1,6 +1,6 @@
 # Thinkful Final Capstone: Periodic Tables
 
->Live App is available here: 
+>Live App is available here: https://frontend-periodic-tables.herokuapp.com/dashboard
 
 ## Available API Endpoints
 
